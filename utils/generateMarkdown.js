@@ -1,16 +1,20 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license === "MIT") {
-    return `[![License](https://img.shields.io/badge/MIT-License-yellow)]`;
-  } else if (license === "APACHE-2.0") {
-    return `[![License](https://img.shields.io/badge/APACHE-License-yellow)]`;
-  } else if (license === "ISC") {
-    return `[![License](https://img.shields.io/badge/ISC-License-yellow)]`;
-  } else if (license === "GNU") {
-    return `[![License](https://img.shields.io/badge/GNU-License-yellow)]`;
+  console.log(license);
+  if (license[0] === "MIT") {
+    return `![GitHub License](https://img.shields.io/badge/license-MIT-yellow)`;
+  } else if (license[0] === "APACHE-2.0") {
+    return `![GitHub License](https://img.shields.io/badge/license-APACHE-yellow)`;
+  } else if (license[0] === "ISC") {
+    return `![GitHub License](https://img.shields.io/badge/license-ISC-yellow)`;
+  } else if (license[0] === "GNU") {
+    return `![GitHub License](https://img.shields.io/badge/license-GNU-yellow)`;
   } else return ''
 }
+
+// Currently Returning back undefined for licenses ask in class.
+
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {}

@@ -1,11 +1,11 @@
 
-  ## d
+  ## Read Me Generator 
 
   ## Description
-  d
+  This is an application that will generate a read me file for your projects.  It achieves this through asking a series of prompted questions through your terminal.
 
   ## Table Of Contents
-  MIT
+  
   [Installation](#installation)
   [Usage](#usage)
   [License](#license)
@@ -13,23 +13,23 @@
   [Tests](#tests)
 
   ## License
-  ![GitHub License](https://img.shields.io/badge/license-MIT-yellow)
+  
 
   ## Installation
-  d
+  
 
   ## Usage
-  d
+  This application would be used to write read me files in a timely manor.
 
   ## Contributions
-   d
+  
 
   ## Tests
-  d
+  
 
   ## GitHub
-  d
+  github.com/chadndonahue
 
   ## Email
-  d
+  chadndonahue@gmail.com
 
